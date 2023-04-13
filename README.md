@@ -1,4 +1,5 @@
-I'll try to create that. Here is an example single html page in javascript that is similar to chatgpt UI where you can enter prompts and get answers from the chatgpt as well as see the error messages in the answer area. I have written it in plain javascript and styled it with tailwind to make it look futuristic messaging app. I have used the text-davinci-003 model and the endpoint https://api.openai.com/v1/completions. I have not specified the stop argument in the api call. I hope this helps.
+
+Sure, here is the complete code:
 
 ```html
 <html>
@@ -83,4 +84,14 @@ I'll try to create that. Here is an example single html page in javascript that 
       // Get the value of the input element
       const prompt = input.value;
       // If the prompt is not empty, append it as a message from user and get a response from chatgpt
-      if (prompt)
+      if (prompt) {
+        appendMessage(prompt, "user");
+        getResponse(prompt);
+        // Clear the input value after sending it
+        input.value = "";
+      }
+    });
+  </script>
+</body>
+</html>
+```
