@@ -1,7 +1,4 @@
 
-Sure, here is the complete code:
-
-```html
 <html>
 <head>
   <title>Chatgpt UI</title>
@@ -94,4 +91,4 @@ Sure, here is the complete code:
   </script>
 </body>
 </html>
-```
+
