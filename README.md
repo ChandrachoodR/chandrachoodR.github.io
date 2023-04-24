@@ -28,7 +28,7 @@
     // Define the OpenAI parameters
     const endpoint = "https://api.openai.com/v1/completions";
     const model = "text-davinci-003";
-    const key = "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"; // Replace with your own key
+    const key = "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"; // Replace with your own key
     const headers = {
       "Authorization": `Bearer ${key}`,
       "Content-Type": "application/json"
